@@ -1,0 +1,87 @@
+.content1 {
+    display: flex;
+}
+
+.content1 ul {
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content1 .content1-left ul {
+    display: grid;
+}
+
+.content1 .content1-left .content1-left-main .main-content ul {
+    display: flex;
+    margin: 1rem 0rem;
+    padding-left: 0rem;
+}
+
+.content1 .content1-left .content1-left-main .main-content .content ul {
+    display: grid;
+    max-width: 19rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    padding-left: 2rem;
+}
+
+.content1 .content1-left .content1-left-main .main-content .content ul .content-detail{
+    padding-top: 1rem;
+}
+
+.content1 .content1-left .content1-left-second ul {
+    display: flex;
+    margin-top: 0rem;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.content1 .content1-left .content1-left-second .content-second ul {
+    display: grid;
+    max-width: 22rem;
+}
+
+.content1 .content1-left .content1-left-second .content-second ul .content-header{
+    padding-top: 1rem;
+}
+
+.content1 .content1-right ul {
+    display: grid;
+    padding-left: 0px;
+}
+
+.content1 .content1-right .content1-right-main .content-img {
+    padding-top: 1rem;
+}
+
+.content1 .content1-right .content1-right-second {
+    padding-top: 1rem;
+}
+
+
+.content1 .main-header h2{
+    color: #59536b;
+}
+
+.content1 .content-header h3{
+    color: #59536b;
+}
+
+.content1 h2, h3, p{
+    text-align: left;
+}
+
+.content1 p{
+    font-size: 15px;
+}
+
+.content1  .content-footer {
+    margin-top: 1rem;
+    color: #59536b;
+    border-left: 3px solid #59536b;
+    padding-left: 5px;
+}
+

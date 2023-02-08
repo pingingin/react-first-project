@@ -1,0 +1,40 @@
+.menu-bar {
+    position: relative;
+    z-index: 100;
+    display: flex;
+}
+.menu-bar ul {
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    margin-top: -20px;
+}
+
+.menu-bar ul li h5{
+    padding-top: 25px;
+    margin-left: -50px;
+}
+
+.menu-bar ul li{
+    background: rgb(233, 232, 233);
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    color: #59536b;
+    text-align: center;
+    border-bottom: 6px outset;
+    border-image: linear-gradient(-90deg, rgb(111, 93, 190) 13%, rgba(145,145,223,1) 100%);
+    border-image-slice: 1;
+    margin: 0 3px;
+}
+
+
+.menu-bar ul li:hover{
+    background: rgb(96,81,166);
+    background: linear-gradient(-90deg, rgba(111, 93, 190) 13%, rgba(145,145,223,1) 100%);
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    border-bottom: none;
+}
+
